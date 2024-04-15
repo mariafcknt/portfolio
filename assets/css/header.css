@@ -56,5 +56,25 @@
     background-image: url('/assets/img/icons/email.svg');
 }
 
+@media only screen and (min-width: 600px) {
+    .header {
+        display: grid;
+        grid-template-areas:
+        "photo title"
+        "photo information"
+        ;
+    }
 
+    .header .photo {
+        grid-area: photo;
+    } 
+
+    .header .title {
+        grid-area: title;
+    }
+    
+    .header .information {
+        grid-area: information;
+    }
+}
 
