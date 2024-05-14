@@ -47,12 +47,4 @@
     margin-right: .5rem;
 }
 
-.portfolio li a {
-    color: #fff;
-    text-decoration: none;
-}
-
-.portfolio li a:hover{
-    text-decoration: underline;
-}
 

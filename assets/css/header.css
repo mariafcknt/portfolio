@@ -47,6 +47,7 @@
 
 }
 
+
 .information p::before {
     content: '';
     display: inline-block;
@@ -69,6 +70,14 @@
 
 .information .email::before {
     background-image: url('/assets/img/icons/email.svg');
+}
+
+.information .linkedin::before {
+    background-image: url('/assets/img/icons/linkedin.svg');
+}
+
+.information .github::before {
+    background-image: url('/assets/img/icons/github-header.svg');
 }
 
 @media only screen and (min-width: 600px) {

@@ -40,6 +40,15 @@ main::after {
     transform: rotate(180deg);
 }
 
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 @media only screen and (min-width: 600px) {
     main {
         max-width: 1024px;
